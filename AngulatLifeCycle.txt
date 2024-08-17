@@ -1,0 +1,24 @@
+Here's simplified representation of the angular component lifecycle:
+1. Creation(Birth):
+    constructor();
+2. Initialization:
+    ngOnChanges();
+    ngOnInit();
+3. Content Projection:
+    ngContentInit();
+4. View Initialization:
+    ngAfterContentInit();
+5. View Update:
+    ngAfterViewInit();
+6. Runtime:
+    ngDoCheck();
+7. destroy:
+    ngOnDestroy();
+
+
+Here's  visual representation of the angular component
+
+lifecycle:
+
+Creation -> Initialization -> Content Projection -> view Initialization ->
+view Update -> Runtime (ngDoCheck) -> Destroy 

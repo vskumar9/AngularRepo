@@ -1,0 +1,18 @@
+In angular, a component combines a template, a class, and metadata to define a
+reusable and delf-contained unit that represents a part of the user interface.
+
+Template:
+The template represents the visual part of the component and defines how the component's UI should be rendered.
+
+Class:
+The class represents the logic part of the component and contains the code and business logic associated with it.
+
+Metadata:
+The metadata represents the configuration and settings of the component, such as its name, selector, and dependencies
+or
+The metadata provides information about the component to angular. It is defined using decorators.
+
+Angular component and used it within your application. Components are reusable,
+modular, and enable you to build complex structures by combining an nesting them.
+encapsulate their own logic, data and UI, making it easier to manage and maintain 
+your application's code base.

@@ -1,0 +1,92 @@
+We need install the node.js 
+For Windows:
+Install nvm-windows:
+
+Download the nvm-windows installer from the nvm-windows GitHub releases page.(https://github.com/coreybutler/nvm-windows/releases)
+Run the installer and follow the prompts.
+Install the latest version of Node.js:
+Open a new command prompt or PowerShell and run:
+-- nvm install latest
+Switch to the latest Node.js version:
+-- nvm use latest
+
+Steps to create Angular Project from Scratch:
+Step 1: Install Angular CLI:
+
+Angular CLI (Command Line Interface) is a powerful tool for creating and managing Angular 
+projects. You can install it globally using npm by running the following command in your 
+terminal or command prompt:
+-- npm install -g @angular/cli
+
+Step 2: Create a New Angular Project:
+
+Once Angular CLI is installed, you can use it to create a new Angular project. Navigate to 
+the directory where you want to create your project and run the following command:
+-- ng new my-angular-app
+
+Step 3: Serve Your Angular Application:
+
+After the project is created, navigate into the project directory then use an 
+Angular CLI to serve your application locally by running:
+-- ng serve
+
+Step 4: Create a Component:
+
+Use Angular CLI to generate a new component. Open your terminal or command prompt, 
+navigate to your project directory, and run the following command:
+-- ng generate component my-component
+
+Step 5: Configure Routes:
+
+Define the routes for your application in the app-routing.module.ts file. You can 
+use Angular’s RouterModule to configure routes and associate components with specific URLs.
+/*
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+
+const routes: Routes = [
+    { path: '', component: HomeComponent },
+    { path: 'about', component: AboutComponent },
+];
+
+@NgModule({
+    imports: [RouterModule.forRoot(routes)],
+    exports: [RouterModule]
+})
+export class AppRoutingModule { }
+*/
+
+Step 6: Add Content to Components:
+
+Open the HTML file of your component (component-name.component.ts, component-name.component.html, 
+and component-name.component.css) and add the desired content.
+
+
+
+========================================================================================================
+Here's how to resolve it and run your Angular project in Visual Studio Code (VS Code):
+
+1. Fix PowerShell Execution Policy Issue
+To allow PowerShell to run scripts like Angular CLI commands, you'll need to modify the execution policy:
+
+Open PowerShell as Administrator:
+
+Search for "PowerShell" in the Start Menu, right-click it, and select "Run as Administrator".
+Check the Current Execution Policy:
+-- Get-ExecutionPolicy
+
+Set Execution Policy to RemoteSigned:
+This will allow scripts created on your local machine to run, but require remote scripts to be signed by a trusted publisher.
+-- Set-ExecutionPolicy RemoteSigned -Scope CurrentUser 
+or 
+-- Set-ExecutionPolicy RemoteSigned
+When prompted, type A (Yes to All) to confirm.
+Verify the Change:
+-- Get-ExecutionPolicy
+
+It should now return RemoteSigned.
+
+Close and Reopen PowerShell/VS Code:
+After changing the policy, close the current PowerShell or VS Code terminal and reopen it to apply the changes.

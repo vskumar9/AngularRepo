@@ -1,0 +1,28 @@
+Here are the main types of decorators in angular:
+
+Class decorators:
+@Component
+@Directive
+@Injectable
+@NgModule
+@Pipe
+
+Propery decorators:
+@Input: Used to define an input propery on a component or directive.
+@Output: Used to define an Output propery on a component or directive.
+@HostBindig: Used to bind a propery to a host element to a directive propery.
+@HostListener: Used to listen to events on a host element to a directive.
+
+Method decorators:
+@viewChild: Used to query a child component or element.
+@ContentChild: Used to query a content child component or element.
+@Host: Used to specify the provider to be used when injecting a dependency.
+@HostListener: Used to define an events listen on the host element.
+
+Parameter decorators:
+@Inject: Used to specify the dependency to be injected.
+@Optional: Used to indicate that a dependency is parameter optional.
+@Self: Used to limit the search for a dependency to the current injector.
+@SkipSelf: Used to skip the current injector and search in the parent injectors.
+@Attribute: Used to retrieve the value of an attribute on an element.
+
