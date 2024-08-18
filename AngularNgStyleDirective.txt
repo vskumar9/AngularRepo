@@ -1,0 +1,3 @@
+The ngStyle directive is used to apply inline CSS styles to an element based on expressions
+in the component. It allows you to dynamically set the style properties of an 
+element based on specific conditions or data values.

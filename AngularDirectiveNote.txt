@@ -1,0 +1,32 @@
+What are Angular Directives
+
+The Angular directive helps us to manipulate the DOM. You can change the 
+appearance, behavior, or layout of a DOM element using the Directives. 
+They help you to extend HTML
+Link: https://www.w3schools.com/angular/angular_directives.asp
+
+Angular Structural Directives
+
+Structural directives are directives which change the DOM layout by adding 
+and removing DOM elements. Angular provides a set of built-in structural 
+directives (such as NgIf, NgForOf, NgSwitch and others) which are commonly 
+used in all Angular projects. For more information see Built-in directives.
+Link: https://v17.angular.io/guide/structural-directives
+
+Angular nglf Directive
+
+A structural directive that conditionally includes a template based on the 
+value of an expression coerced to Boolean. When the expression evaluates to 
+true, Angular renders the template provided in a then clause, and when false 
+or null, Angular renders the template provided in an optional else clause. 
+The default template for the else clause is blank.
+Link: https://angular.io/api/common/NgIf
+https://v17.angular.io/api/common/NgIf
+
+Angular ngStyle Directive
+
+An attribute directive that updates styles for the containing HTML element. 
+Sets one or more style properties, specified as colon-separated key-value pairs. 
+The key is a style name, with an optional .<unit> suffix (such as 'top.px', 
+'font-style.em'). The value is an expression to be evaluated.
+Link: https://angular.io/api/core/NgStyle

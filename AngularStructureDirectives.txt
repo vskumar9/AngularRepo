@@ -1,0 +1,9 @@
+Structural directives are powerful tools that allow you to conditionally render or 
+Repeat elements in the DOM based on dynamic conditions.
+
+Angular provides several build-in structural directives that you can use out of the box:
+- `ngIf` - Conditionally renders a template based on a boolean expression.
+- `ngSwitch` - Conditionally renders a template based on a value.
+- `ngFor` - Iterates over an array or object and renders a template for each item
+- `ngTemplateOutlet` - Renders a template based on a reference to a template variable.
+
