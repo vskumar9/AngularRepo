@@ -1,0 +1,138 @@
+### Angular Pipes
+Angular **Pipes** are a way to transform data directly in your templates. They take in some data 
+and return the formatted output, which is particularly useful for displaying data in the UI.
+
+#### 1. **Built-in Pipes**
+Angular provides several built-in pipes that you can use out of the box:
+
+- **`DatePipe`**: Formats dates.
+  ```html
+  <p>{{ today | date:'short' }}</p>
+  <!-- Output: 8/17/24, 10:00 AM (depends on locale) -->
+  ```
+
+- **`UpperCasePipe` and `LowerCasePipe`**: Transforms text to uppercase or lowercase.
+  ```html
+  <p>{{ 'hello' | uppercase }}</p> <!-- Output: HELLO -->
+  ```
+
+- **`CurrencyPipe`**: Formats numbers as currency.
+  ```html
+  <p>{{ price | currency:'USD' }}</p> <!-- Output: $1,234.56 -->
+  ```
+
+- **`PercentPipe`**: Converts numbers to percentages.
+  ```html
+  <p>{{ 0.25 | percent }}</p> <!-- Output: 25% -->
+  ```
+
+- **`DecimalPipe`**: Formats numbers with a specific decimal precision.
+  ```html
+  <p>{{ 3.14159 | number:'1.2-2' }}</p> <!-- Output: 3.14 -->
+  ```
+
+- **`JsonPipe`**: Converts an object to a JSON string.
+  ```html
+  <p>{{ myObject | json }}</p>
+  ```
+
+#### 2. **Custom Pipes**
+You can also create your own custom pipes to transform data according to your needs.
+
+**Example:**
+```typescript
+import { Pipe, PipeTransform } from '@angular/core';
+
+@Pipe({name: 'exclaim'})
+export class ExclaimPipe implements PipeTransform {
+  transform(value: string): string {
+    return value + '!';
+  }
+}
+```
+**Usage in Template:**
+```html
+<p>{{ 'Hello' | exclaim }}</p> <!-- Output: Hello! -->
+```
+
+### Angular Forms
+Angular provides powerful tools for building forms, ranging from simple templates to complex reactive forms.
+
+#### 1. **Template-Driven Forms**
+Template-driven forms are simpler to set up and are suitable for basic use cases. The form logic 
+is defined directly in the template, and Angular automatically tracks the state of the form fields.
+
+**Example:**
+```typescript
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-template-form',
+  template: `
+    <form #form="ngForm" (ngSubmit)="onSubmit(form.value)">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" ngModel>
+      <button type="submit">Submit</button>
+    </form>
+  `
+})
+export class TemplateFormComponent {
+  onSubmit(value: any) {
+    console.log(value);
+  }
+}
+```
+
+- **`ngModel`**: Two-way data binding between the input field and the component's data model.
+- **`ngForm`**: Angular tracks the state of the entire form.
+
+#### 2. **Reactive Forms**
+Reactive forms are more powerful and scalable, suitable for complex form scenarios. The form 
+logic is defined in the component class, and the template binds to it.
+
+**Example:**
+```typescript
+import { Component } from '@angular/core';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
+
+@Component({
+  selector: 'app-reactive-form',
+  template: `
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+      <label for="name">Name:</label>
+      <input type="text" id="name" formControlName="name">
+      <button type="submit">Submit</button>
+    </form>
+  `
+})
+export class ReactiveFormComponent {
+  form = new FormGroup({
+    name: new FormControl('', Validators.required)
+  });
+
+  onSubmit() {
+    console.log(this.form.value);
+  }
+}
+```
+
+- **`FormGroup`**: A group of form controls.
+- **`FormControl`**: Represents an individual form control (input field).
+- **`Validators`**: Adds validation rules to form controls (e.g., `Validators.required`).
+
+### Key Differences Between Template-Driven and Reactive Forms
+
+- **Template-Driven Forms**:
+  - Easy to use for simple forms.
+  - Relies heavily on Angular directives in the template (`ngModel`, `ngForm`).
+  - Validation is done using template-based directives like `required`.
+
+- **Reactive Forms**:
+  - Best suited for complex forms.
+  - Provides fine-grained control over the form logic in the component class.
+  - Validation is done in the component using `Validators`.
+
+### Summary
+- **Pipes**: Used to transform data in templates. Angular offers several built-in pipes, and you can create custom pipes.
+- **Forms**: Angular offers two types of forms—**template-driven** (for simple forms) and **reactive** 
+(for complex, scalable forms). Each approach has its strengths and should be chosen based on the requirements of the application.

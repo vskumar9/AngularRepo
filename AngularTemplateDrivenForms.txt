@@ -1,0 +1,16 @@
+Template-driven forms in Angular provide a simple and declarative way to work with
+forms. They are a great choice when you need to create forms with a lot of fields, or
+when you need to reuse a form in multiple places in your application.
+
+Steps to create a template-driven form in Angular:
+1. Import the FormsModule in your app module.
+2. Create a form in your template using the form tag.
+2.1. Add form validation
+2.2. Add form controls
+2.3. Add form groups
+2.4. Add form arrays
+3. Use the ngModel directive to bind the form controls to your component's properties.
+3.1. Add form controls to the form using the ngModel directive.
+4. Use the ngSubmit directive to handle form submission.
+5. Use the ngIf directive to conditionally render form fields based on user input.
+5.1. Access form data and validation

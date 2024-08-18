@@ -1,0 +1,77 @@
+Question 1
+What is an Angular pipe?
+A type of plumbing used to transport data between Angular components.
+A feature of Angular used to transform data before displaying it in the template.
+A tool used to debug Angular applications.
+A mechanism for passing data from a parent component to a child component.
+
+Question 2
+Which of the following is NOT a valid Angular form control state?
+untouched
+dirty
+valid
+selected
+
+Question 3
+What is an Angular template-driven form
+A form that is generated automatically based on a data model.
+A form that is defined in the component template using Angular directives and binding.
+A form that is defined in the component class using TypeScript code.
+A form that is submitted using the Angular HttpClient module.
+
+Question 4
+What is the purpose of the "ngModel" directive in Angular forms?
+To define the structure of the form data model.
+To define the validation rules for a form control.
+To bind a form control to a property on the component class.
+To submit the form data to the server using the Angular HttpClient module.
+
+Question 5
+Which of the following is NOT a valid built-in validator for Angular forms?
+required
+email
+pattern
+alphanumeric
+
+Question 6
+What is the difference between template-driven forms and reactive forms in Angular?
+Template-driven forms are built using a template syntax, while reactive forms are built using reactive programming techniques.
+Template-driven forms are used for simple forms with few fields, while reactive forms are used for more complex forms with many fields.
+Template-driven forms are mainly driven by the component's template, while reactive forms are mainly driven by the component's TypeScript code.
+Template-driven forms do not support form validation, while reactive forms provide robust form validation features.
+
+
+Question 7
+What is a pipe in Angular?
+A data structure used to hold values that can be accessed from anywhere in the application.
+A component that is used to render a specific portion of the user interface.
+A way to transform data in the template before rendering it.
+A built-in Angular module used for adding custom CSS styles to the application.
+
+Question 8
+Which of the following is NOT a built-in Angular validator for forms?
+required
+email
+pattern
+unique
+
+Question 9
+Which of the following is NOT a valid Angular form control status?
+pristine
+dirty
+touched
+inactive
+
+Question 10
+Which of the following is NOT a built-in Angular pipe?
+uppercase
+date
+currency
+capitalize
+
+Question 11
+What is the purpose of the "ngSubmit" directive in Angular forms?
+To disable the form submission.
+To specify the HTTP method to be used for the form submission.
+To define the form fields and their validation rules.
+To bind a method to the form submission event.

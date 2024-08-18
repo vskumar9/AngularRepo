@@ -1,0 +1,4 @@
+Reactive forms in Angular provide a more flexible and programmatic approach to working with forms. They are
+build using the FormControl, FormGroup, and FormArray classes provided by Angular's @angular/forms module.
+Reactive forms are more powerful than template-driven forms and provide more control over the form data and validation
+

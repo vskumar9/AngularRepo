@@ -1,0 +1,4 @@
+Pipes in Angular are a way to transform and format data for display in the template.
+Pipes are used to format data, such as dates, numbers, and strings, and to perform
+other data transformations. They are used to perform common data manipulation tasks such as
+filtering, sorting, and formatting values. Pipes are marked with the | character in the template syntax.

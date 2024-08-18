@@ -1,0 +1,33 @@
+Angular Pipes
+
+Angular Pipes take data as input and formats or transform the data to 
+display in the template. We use them to change the appearance of the data 
+before presenting it to the user.
+Link: https://angular.io/guide/pipes
+
+Angular Forms
+
+Forms are very integral and essential building blocks of every apps. Forms 
+allow us to gather information and data from the user. A good way to interact 
+with users and almost all websites will need forms in some other way.
+Link: https://angular.io/guide/forms
+https://v17.angular.io/guide/forms-overview
+
+Angular Template Driven Form
+
+Forms built with this directive could only be tested in an end to end test 
+because this requires the presence of a DOM, but still, this mechanism was 
+very useful and simple to understand. Angular now provides an identical 
+mechanism named also ngModel, that allow us to build what is now called 
+Template-Driven forms.
+Link: https://angular.io/guide/forms#template-driven-forms
+Link: https://blog.angular-university.io/introduction-to-angular-2-forms-template-driven-vs-model-driven/
+
+Angular Reactive Form
+
+Reactive forms provide a model-driven approach to handling form inputs whose 
+values change over time. This guide shows you how to create and update a basic 
+form control, progress to using multiple controls in a group, validate form 
+values, and create dynamic forms where you can add or remove controls at run time.
+Link: https://angular.io/guide/reactive-forms
+https://v17.angular.io/guide/reactive-forms
