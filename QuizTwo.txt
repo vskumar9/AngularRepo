@@ -1,0 +1,20 @@
+Question 1
+What is Angular Data Binding?
+A process of connecting Angular application with an external API.
+A way to define data types in Angular application.
+A technique to share data between components in an Angular application.
+A mechanism to automatically synchronize data between the view and the model in an Angular application.
+
+Question 2
+What is Angular Two-way Data Binding?
+A technique to bind data from the model to the view only.
+A technique to bind data from the view to the model only.
+A technique to automatically synchronize data between the view and the model in both directions.
+A technique to manually synchronize data between the view and the model in both directions.
+
+Question 3
+What is Angular Event Binding?
+A technique to automatically synchronize data between the view and the model.
+A technique to bind data from the model to the view only.
+A technique to bind data from the view to the model only.
+A technique to handle events in the view and trigger actions in the component.

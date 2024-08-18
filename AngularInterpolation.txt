@@ -1,0 +1,7 @@
+Interpolation is a type of one-way data binding in angular that allows you to bind
+component properties or variables directly into the template markup. It is denoted by
+double curly braces {{}}.
+
+Here's how interpolation works:
+1. Binding Components Properties.
+2. Expression Evaluation

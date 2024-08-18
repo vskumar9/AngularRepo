@@ -1,0 +1,28 @@
+Question 1
+What is the purpose of Angular decorators in Angular framework?
+To define the styles for Angular components
+To encapsulate the logic and data of Angular components
+To configure the behavior and metadata of Angular components
+To create reusable UI components in Angular applications
+
+2.
+Question 2
+Which of the following is not a lifecycle hook in Angular?
+ngOnInit
+ngOnChanges
+ngOnDestroy
+ngAfterViewUpdate
+
+Question 3
+Which of the following is NOT a type of decorator in Angular?
+@Component
+@Directive
+@Module
+@Service
+
+Question 4
+Which of the following is NOT a comparison operator in JavaScript?
+==
+===
+!=
+<>

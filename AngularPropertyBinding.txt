@@ -1,0 +1,10 @@
+Property binding is a type of one-way data binding in angular that allows you to set the
+value of an HTML element's property based on a component property or expression.
+
+Here's how property binding works:
+
+1. Binding Component Properties to Element Properties
+2. Binding Expressions to Element Properties
+3. Binding Component Methods to Element Properties
+4. Binding Component Properties to Element Attributes
+5. Binding Component Properties to Element Styles

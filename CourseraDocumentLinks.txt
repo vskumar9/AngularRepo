@@ -1,0 +1,33 @@
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code
+https://phppot.com/jquery/dynamic-content-load-using-jquery-ajax/
+https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
+https://developer.mozilla.org/en-US/docs/Web/API/Element/remove
+
+Angular Life Cyle
+
+Each Angular component goes through 8 phases in its lifecycle. When it is initialized, 
+it creates and presents its root components. For the components that get loaded during 
+application development, it keeps checking when the data binding properties are getting 
+changed and updated. When the component is not used anymore, it approaches the death phase 
+and is decimated and expelled from the DOM
+Link: https://v17.angular.io/guide/lifecycle-hooks
+
+Angular Decorators
+
+An Angular Decorator is a function, using which we attach metadata to a class, method, accessor, property, or parameter
+We apply the decorator using the form @expression, where expression is the name of the decorator.
+The Decorators are Typescript features and are still not part of the Javascript.
+Link: https://v17.angular.io/guide/decorators
+
+Angular Component
+
+The Component is the main building block of an Angular Application. The Component contains 
+the data &amp; user interaction logic that defines how the View looks and behaves.
+Link: https://v17.angular.io/guide/component-overview
+
+Angular Module
+
+The Angular module (also known as ngModule) helps us to organize the application parts 
+into cohesive blocks of functionality.
+Link: https://angular.io/guide/architecture-modules

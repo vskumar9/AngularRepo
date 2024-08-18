@@ -1,0 +1,13 @@
+Angular data binding is a feature that establishes a connection between your application's
+data and the user interface(UI).
+
+There are two types of data binding in angular:
+1. One-way data binding: 
+This is a one-way process where the data flows from the component
+There are three types of one-way data binding:
+* Interpolation: It is used to display the data in the UI. It is denoted by
+* Property binding: It is used to bind the data to the properties of the HTML elements. It
+* Event binding: It is used to bind the data to the events of the HTML elements. It
+2. Two-way data binding:
+This is a two-way process where the data flows from the component to the UI and also from the
+UI to the component. It is denoted by the ngModel directive.

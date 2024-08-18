@@ -1,0 +1,11 @@
+Event binding in angular allows you to respond to user interactions such as button clicks,
+mouse movements, keyboard inputs, and more...
+
+Here's how event binding works:
+1. Binding Event Handlers
+2. Event Data
+================================
+2. Binding Event Arguments
+3. Binding Event Names
+4. Binding Event Types
+5. Binding Event Modifiers

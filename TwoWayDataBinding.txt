@@ -1,0 +1,13 @@
+Angular's ngModel directive is used to achieve two-way data binding.
+
+Here's how two-way data binding using ngModel works:
+1. Importing FormsModule
+2. Binding Component Property to Input Element
+3. Updating Component Property and Input Element
+
+==============================================================
+
+2. Using ngModel directive in the template
+3. Binding the ngModel directive to a property in the component class
+4. Updating the property in the component class
+5. The view will automatically update when the property changes

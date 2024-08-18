@@ -1,0 +1,46 @@
+Angular Data Binding (One way and Two way Data Binding)
+
+Data binding is a technique, where the data stays in sync 
+between the component and the view. Whenever the user updates 
+the data in the view, Angular updates the component. When 
+the component gets new data, Angular updates the view. There are 
+many uses of data binding.
+Link: https://www.w3schools.com/angular/angular_databinding.asp
+
+Angular Interpolation
+
+Interpolation allows us to include expressions as part of any 
+string literal, which we use in our HTML. The angular evaluates 
+the expressions into a string and replaces it in the original 
+string and updates the view.
+Link: https://www.w3schools.com/angular/angular_interpolation.asp
+https://angular.io/guide/architecture-modules
+
+Angular Property Binding
+
+The Property binding allows us to bind HTML element property to a 
+property in the component. Whenever the value of the component 
+changes, Angular updates the element property in the View. You 
+can set the properties such as class, href, src, textContent, etc 
+using property binding.
+Link: https://www.w3schools.com/angular/angular_two-way-data-binding.asp
+https://v17.angular.io/guide/property-binding
+
+Angular Event Binding
+
+Event binding allows us to bind events such as keystrokes, clicks, 
+hover, touch, etc. to a method in the component. It is one way 
+from view to component. By tracking the user events in the view 
+and responding to them, we can keep our component in sync with 
+the view.
+Link: https://www.w3schools.com/angular/angular_events.asp
+https://v17.angular.io/guide/event-binding
+
+Angular Data Binding - Two way data binding (ngModel)
+
+Two-way data binding means that changes made to our model in 
+the component are propagated to the view and that any changes 
+made in the view are immediately updated in the underlying 
+component data.
+Link: https://www.w3schools.com/angular/angular_two-way-data-binding.asp
+https://v17.angular.io/guide/two-way-binding
